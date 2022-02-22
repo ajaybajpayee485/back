@@ -1,0 +1,52 @@
+h1 {
+    color:red;
+}
+@import url("https:fonts.googleapis.com/css2?family=poiret+one&display=swap");
+* {
+    font-family: "poiret one",cursive;
+    font-weight: bold;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+li,
+p,
+a {
+    font-size: 1.6rem;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 3rem;
+}
+.row {
+    margin: 0;
+}
+.navbar-style {
+    background-color: #f8f9fa;
+    box-shadow: 2px 4px 13px 1px rgba(8,8,8,0.04);
+}
+
+#logo {
+    
+    display: inline;
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: #fd5c63;
+    text-shadow: 2px 5px 3px rgba(0,0,0,0.06);
+    padding: 0;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding-left: 1rem;
+    font-size: 1.9rem;
+}
